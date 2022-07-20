@@ -1,5 +1,4 @@
 <script>
-    import '../../css/global.css';
     import Title from '$lib/title.svelte';
 </script>
 
