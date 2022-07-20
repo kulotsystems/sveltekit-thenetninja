@@ -25,6 +25,8 @@
     main {
         max-width: 960px;
         margin: 20px auto;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     footer {
