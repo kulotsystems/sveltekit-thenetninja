@@ -1,24 +1,12 @@
 <script>
-    let title = 'Ninja Gaming Guides';
-
-    const updateTitle = () => {
-        title = 'Something Completely Different'
-    }
+    import Title from '$lib/title.svelte';
 </script>
 
 
+<Title/>
 <div class="index">
-    <h1>
-        {#if title !== ''}
-            { title }
-        {:else}
-            &nbsp;
-        {/if}
-    </h1>
+    <h2>Welcome</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cupiditate ea esse quo. Consectetur dolorum eius eos harum pariatur perferendis? Assumenda aut, exercitationem laboriosam obcaecati quaerat quia recusandae sed voluptatum.</p>
-
-    <button on:click={ updateTitle }>Change Title</button>
-    <input type="text" bind:value={ title }>
 
     <br>
     <br>
