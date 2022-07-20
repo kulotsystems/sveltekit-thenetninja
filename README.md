@@ -39,4 +39,4 @@ You can preview the production build with `npm run preview`.
 
 
 ## Preview
-Access <https://sveltekit-thenetninja-2pbiesf87-kulotsystems.vercel.app>
+Access <https://sveltekit-thenetninja.vercel.app/>
