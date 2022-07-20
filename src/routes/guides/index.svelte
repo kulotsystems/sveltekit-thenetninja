@@ -12,7 +12,7 @@
 
         return {
             status: res.status,
-            error: new Error('Could not fetch the guides')
+            error: new Error('Could not fetch the guides.')
         }
     }
 </script>
@@ -26,7 +26,7 @@
     <ul>
         {#each guides as guide}
             <li>
-                <a href="/">{ guide.title }</a>
+                <a href="{ `/guides/${guide.id}` }">{ guide.title }</a>
             </li>
         {/each}
     </ul>
